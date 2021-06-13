@@ -68,7 +68,7 @@ if (isDevMode) {
 
 const plugins = [
   // creates a manifest.json mapping of name to hashed output used in template files
-  new ManifestPlugin(({
+  new ManifestPlugin({
     publicPath: output.publicPath,
     seed: { app: 'superset' },
     // This enables us to include all relevant files for an entry
