@@ -28,8 +28,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const SpeedMeasurePlugin = require('speed-measure-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-//const ManifestPlugin = require('webpack-manifest-plugin');
-const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
+const ManifestPlugin = require('webpack-manifest-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const parsedArgs = require('yargs').argv;
 const getProxyConfig = require('./webpack.proxy-config');
@@ -69,7 +68,7 @@ if (isDevMode) {
 
 const plugins = [
   // creates a manifest.json mapping of name to hashed output used in template files
-  new WebpackManifestPlugin(({
+  new ManifestPlugin(({
     publicPath: output.publicPath,
     seed: { app: 'superset' },
     // This enables us to include all relevant files for an entry
