@@ -5,7 +5,8 @@
 #
 #    pip-compile-multi
 #
--e file:.
+#-e file:.
+-e .
     # via -r requirements/base.in
 aiohttp==3.7.2
     # via slackclient
