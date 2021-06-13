@@ -7,7 +7,8 @@
 #
 -r development.txt
 -r integration.txt
--e file:.
+#-e file:.
+-e .
     # via -r requirements/base.in
 appnope==0.1.0
     # via ipython
