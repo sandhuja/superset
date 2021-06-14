@@ -6,7 +6,8 @@
 #    pip-compile-multi
 #
 -r base.txt
--e file:.
+#-e file:.
+-e .
     # via -r requirements/base.in
 boto3==1.16.10
     # via tabulator
