@@ -160,7 +160,7 @@
     "react-select": "^3.1.0",
     "react-select-async-paginate": "^0.4.1",
     "react-sortable-hoc": "^1.11.0",
-    "react-split": "^2.0.9",
+    "react-split": "^2.0.13",
     "react-sticky": "^6.0.3",
     "react-syntax-highlighter": "^15.3.0",
     "react-table": "^7.6.3",
