@@ -203,7 +203,7 @@
     "@storybook/addons": "^6.1.17",
     "@storybook/client-api": "^6.1.17",
     "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/react": "^6.1.20",
+    "@storybook/react": "^6.3.12",
     "@svgr/webpack": "^5.4.0",
     "@testing-library/dom": "^7.29.4",
     "@testing-library/jest-dom": "^5.11.6",
