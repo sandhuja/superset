@@ -131,7 +131,7 @@ setup(
         "druid": ["pydruid>=0.6.1,<0.7"],
         "solr": ["sqlalchemy-solr >= 0.2.0"],
         "elasticsearch": ["elasticsearch-dbapi>=0.2.0, <0.3.0"],
-        "exasol": ["sqlalchemy-exasol>=2.1.0, <2.2"],
+        "exasol": ["sqlalchemy-exasol>=2.1.0, <3.1"],
         "excel": ["xlrd>=1.2.0, <1.3"],
         "firebird": ["sqlalchemy-firebird>=0.7.0, <0.8"],
         "gsheets": ["shillelagh[gsheetsapi]>=0.5, <0.6"],
